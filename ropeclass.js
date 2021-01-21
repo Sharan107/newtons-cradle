@@ -18,7 +18,7 @@ display(){
 var pointA=this.rope.bodyA.position;
 var pointB=this.rope.bodyB.position;
 
-strokeWeight(2);
+strokeWeight(4);
 
 var anchor1X=pointA.x;
 var anchor1Y=pointA.y;
