@@ -6,7 +6,7 @@ class Bob{
       isStatic:false,
       restitution:0.3,
       friction:0.5,
-      density:1.2
+      density:0.5
     }
     
     this.y=y;
@@ -26,7 +26,7 @@ class Bob{
     translate(bobpos.x,bobpos.y);
     rectMode(CENTER);
     strokeWeight(3);
-    fill(255,0,255);
+    fill("blue");
      ellipse(0,0,this.r,this.r);
      pop()
     }

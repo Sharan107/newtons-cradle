@@ -7,7 +7,7 @@ class Roof{
  
      this.x=x;
      this.y=y;
-     this.width=600;
+     this.width=500;
      this.height=40;
  
      this.body=Bodies.rectangle(x,y,500,50,options);
